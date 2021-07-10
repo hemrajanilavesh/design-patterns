@@ -8,6 +8,11 @@ package com.lavesh.design.patterns.creational.factory;
  * To change this template use File | Settings | File Templates.
  */
 
+/**
+ * In factory design pattern, we don't want to expose the object creation logic to the client.
+ * In the below example, the methods createCartesianPoint & createPolarPoint do not expose how point is created.
+ */
+
 class Point {
 
     public double x,y;

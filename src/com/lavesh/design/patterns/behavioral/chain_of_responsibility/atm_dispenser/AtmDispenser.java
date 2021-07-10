@@ -2,9 +2,9 @@ package com.lavesh.design.patterns.behavioral.chain_of_responsibility.atm_dispen
 
 public interface AtmDispenser {
 
-    public static final int FIFTY = 50;
-    public static final int TWENTY = 20;
-    public static final int TEN = 10;
+    int FIFTY = 50;
+    int TWENTY = 20;
+    int TEN = 10;
 
     void setNextAtmDispenser(AtmDispenser nextAtmDispenser);
 

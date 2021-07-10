@@ -12,7 +12,7 @@ class Resource {
 
     private static /*volatile*/ Resource resource = null;
 
-    public Resource() {
+    private Resource() {
     }
 
     public static Resource getInstance() {

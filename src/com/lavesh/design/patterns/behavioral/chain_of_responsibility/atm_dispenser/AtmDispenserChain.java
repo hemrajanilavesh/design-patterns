@@ -8,10 +8,11 @@ public class AtmDispenserChain {
 
     public AtmDispenserChain() {
         fifty = new FiftyDollarAtmDispenser();
-        AtmDispenser twenty = new TwentyDollarAtmDispenser();
-        AtmDispenser ten = new TenDollarAtmDispenser();
 
+        AtmDispenser twenty = new TwentyDollarAtmDispenser();
         fifty.setNextAtmDispenser(twenty);
+
+        AtmDispenser ten = new TenDollarAtmDispenser();
         twenty.setNextAtmDispenser(ten);
         ten.setNextAtmDispenser(null);
     }

@@ -1,6 +1,6 @@
 package com.lavesh.design.patterns.creational.builder.computer;
 
-public class ComputerBuidlerDemo {
+public class ComputerBuilderDemo {
     public static void main(String[] args) {
         Computer computer = new Computer.ComputerBuilder()
                 .withBluetoothEnabled(true)

@@ -19,7 +19,7 @@ import java.util.List;
  */
 
 interface IHotDrink {
-    public void consume();
+    void consume();
 }
 
 class Tea implements IHotDrink {
@@ -37,7 +37,7 @@ class Coffee implements IHotDrink {
 }
 
 interface IHotDrinkFactory {
-    public IHotDrink prepare(int amount);
+    IHotDrink prepare(int amount);
 }
 
 class TeaFactory implements IHotDrinkFactory {
@@ -116,7 +116,9 @@ class HotDrinkMachine {
 
 }
 
-
+/**
+ * Abstract factory is factory of factories
+ */
 public class AbstractFactoryDemo {
 
     public static void main(String[] args) throws Exception {
