@@ -1,5 +1,5 @@
 # Design Patterns
-Simple Examples explaining Gang of Four Design Patterns in Java
+Simple Examples explaining Design Patterns in Java
 
 ## [Creational](https://github.com/hemrajanilavesh/design-patterns/tree/main/src/com/lavesh/design/patterns/creational)
 
@@ -19,3 +19,14 @@ Simple Examples explaining Gang of Four Design Patterns in Java
 * [Decorator](https://github.com/hemrajanilavesh/design-patterns/tree/main/src/com/lavesh/design/patterns/structural/decorator)
 
 ## [Behavioral](https://github.com/hemrajanilavesh/design-patterns/tree/main/src/com/lavesh/design/patterns/behavioral)
+
+* [Template](https://github.com/hemrajanilavesh/design-patterns/tree/main/src/com/lavesh/design/patterns/behavioral/template)
+* [Mediator](https://github.com/hemrajanilavesh/design-patterns/tree/main/src/com/lavesh/design/patterns/behavioral/mediator)
+* [Chain of Responsibility](https://github.com/hemrajanilavesh/design-patterns/tree/main/src/com/lavesh/design/patterns/behavioral/chain_of_responsibility)
+* [Observer](https://github.com/hemrajanilavesh/design-patterns/tree/main/src/com/lavesh/design/patterns/behavioral/observer)
+* [Strategy](https://github.com/hemrajanilavesh/design-patterns/tree/main/src/com/lavesh/design/patterns/behavioral/strategy)
+* [Command](https://github.com/hemrajanilavesh/design-patterns/tree/main/src/com/lavesh/design/patterns/behavioral/command)
+* [State](https://github.com/hemrajanilavesh/design-patterns/tree/main/src/com/lavesh/design/patterns/behavioral/state)
+* [Visitor](https://github.com/hemrajanilavesh/design-patterns/tree/main/src/com/lavesh/design/patterns/behavioral/visitor)
+* [Iterator](https://github.com/hemrajanilavesh/design-patterns/tree/main/src/com/lavesh/design/patterns/behavioral/iterator)
+* [Memento](https://github.com/hemrajanilavesh/design-patterns/tree/main/src/com/lavesh/design/patterns/behavioral/memento)
